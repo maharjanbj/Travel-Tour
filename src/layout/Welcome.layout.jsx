@@ -1,16 +1,16 @@
 import React from "react";
 
-import Nav from '../components/partials/Nav'
+// import Nav from '../components/partials/Nav'
 import PrimaryRoute from "../routes";
-import Footer from "../components/partials/Footer";
+// import Footer from "../components/partials/Footer";
 
 const WelcomeLayout = () => {
   return <>
-    <Nav />
+    {/* <Nav /> */}
     <div>
       <PrimaryRoute />
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </>
 };
 

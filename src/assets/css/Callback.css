@@ -1,0 +1,42 @@
+.callback-section::before {
+    background-color: #0791BE;
+    content: "";
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .callback-section::before {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .callback_text-padding {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .class-absolute {
+        left: 16px;
+        right: 16px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .class-absolute {
+        left: 370px;
+        right: 160px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .class-absolute {
+        left: 450px;
+        right: 450px;
+    }
+}

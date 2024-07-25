@@ -2,4 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* blocklist.css */
+blockquote::before {
+  position: absolute;
+  content: '\f10d'; 
+  font-weight: 900;
+  font-size: 20px;
+  float: left;
+  margin-right: 20px;
+  font-size: medium;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: -10px;
+  padding: 0 10px;
+  z-index: 9;
+}
+blockquote::after {}
+/* blocklist.css */
+
+/* @media screen and (min-width: 1440px) { */
+  #section {
+    padding: 18px 120px 18px 120px;
+  }
+/* } */
+
+@media screen and (max-width: 1024px) {
+  #section {
+    padding: 18px 96px 18px 96px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section {
+    padding: 18px 18px 18px 18px;
+  }
 }
