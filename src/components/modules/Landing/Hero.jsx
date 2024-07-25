@@ -15,7 +15,6 @@ const Hero = () => {
         >
           <Nav />
           <div id='section' className="h-full w-full lg:mb-32 flex justify-center items-center">
-          {/* lg:py-40 py-20 */}
             <div className="w-full lg:py-36 py-20 flex justify-center items-center flex-col text-center lg:w-[80%] ">
               <div className="font-black lg:text-5xl xl:text-[80px] text-4xl">
                 TRAVELLING AROUND THE WORLD
